@@ -1,5 +1,6 @@
 ---
-Title: Welcome
+Title: Welcome to my page.
+Logo: image/me.png
 Description: This is my index page.
 ---
 
