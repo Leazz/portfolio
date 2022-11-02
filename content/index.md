@@ -1,6 +1,6 @@
 ---
 Title: My page.
-Logo: image/me.png
+Logo: image/me1.png
 Description: This is my page.
 ---
 
@@ -10,7 +10,7 @@ welcome to my page
 
 ==========================
 
-Th source for this page is in `content/index.md`.
+The source for this page is in `content/index.md`.
 
 <!-- This is a sample home page written in markdown with some frontmatter defined. -->
 "img/me1.png" width="500" alt="Bild på mig">
