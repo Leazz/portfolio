@@ -1,6 +1,6 @@
 ---
 Title: My page.
-Logo: image/me1.png
+Logo: image/me11.png
 Description: This is my page.
 ---
 
