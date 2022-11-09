@@ -58,3 +58,10 @@ DummyPlugin.enabled: false          # Force the plugin "DummyPlugin" to be disab
 # Custom
 #
 shaded_url: themes/shared     # You can access custom settings in themes using {{ config.my_custom_setting }}
+
+##
+# Theme
+#
+theme: Lea_tema
+themes_url: ~
+
