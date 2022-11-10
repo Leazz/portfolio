@@ -1,5 +1,5 @@
 ---
-Title: My page.
+Title: My page
 Logo: image/me11.png
 Description: Lea Alfawaz.
 ---
