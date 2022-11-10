@@ -1,7 +1,7 @@
 ---
 Title: My page.
 Logo: image/me11.png
-Description: This is my page.
+Description: Lea Alfawaz.
 ---
 
 
@@ -11,9 +11,6 @@ welcome to my page
 ==========================
 
 The source for this page is in `content/index.md`.
-
-<!-- This is a sample home page written in markdown with some frontmatter defined. -->
-"img/me1.png" width="500" alt="Bild på mig">
 
 Hello,
 

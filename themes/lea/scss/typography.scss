@@ -28,6 +28,33 @@ p {
         margin: 0 auto;
 }
 
+.footer div {
+  text-align: center;
+  background-color: rgb(106, 103, 103);
+}
+.nav{
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(113, 28, 59);
+  color: #efefef;
+  display: flex;
+  
+}
+
+.site-header{
+  text-align:end;
+  margin-top: 10px;
+  background-color: rgb(106, 103, 103);
+  display: flex;
+}
+* {
+  color: #000;
+}
+
+img {
+  border-radius: 50%;
+}
+
 @media (min-width: 64em) {
   html {
     font-size: 112.5%;
