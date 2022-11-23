@@ -6,6 +6,6 @@ Social:
       url: https://github.com/Leazz/portfolio/tree/master
       icon: fab fa-github 
     - title: Link till sidans dbwebb.
-      url: https://www.dbwebb.com
+      url: https://www.dbwebb.se
       icon: fab fa-canadian-maple-leaf
 ---
