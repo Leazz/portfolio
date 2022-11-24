@@ -1,0 +1,52 @@
+.technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        min-width: 20%;
+        text-align: end;
+    }
+
+    .sidebar a {
+        margin: 0;
+        margin-bottom: 1em;
+        display: block;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-variant: all-small-caps;
+        letter-spacing: 1px;
+        padding-right: 1em;
+    }
+
+    .sidebar a:hover {
+        color: $accent-color;
+    }
+
+    .techno {
+        font-size: $base-font-size;
+        line-height: $base-line-height;
+        padding: 0 0.2em;
+    }
+}
+
+.techno {
+    pre {
+        margin-top: $magic-number;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    /* For mobile phones: */
+    .technology {
+        flex-direction: column;
+
+        .sidebar {
+            display: none !important;
+        }
+    }
+}
