@@ -6520,14 +6520,51 @@
    font-weight: 400;
  }
  
- body {
-   background-color: #b8babf;
+ .technology {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 1em;
+ }
+ .technology .sidebar {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   min-width: 20%;
+   text-align: end;
+ }
+ .technology .sidebar a {
+   margin: 0;
+   margin-bottom: 1em;
+   display: block;
+   text-decoration: none;
+   font-size: 1.4rem;
+   font-variant: all-small-caps;
+   letter-spacing: 1px;
+   padding-right: 1em;
+ }
+ .technology .sidebar a:hover {
+   color: #0d0d0d;
+ }
+ .technology .techno {
+   font-size: 1.1rem;
+   line-height: 1.4;
+   padding: 0 0.2em;
  }
  
- * {
-   color: #000;
+ .techno pre {
+   margin-top: 1.54rem;
  }
  
+ @media only screen and (max-width: 940px) {
+   /* For mobile phones: */
+   .technology {
+     flex-direction: column;
+   }
+   .technology .sidebar {
+     display: none !important;
+   }
+ }
  .technologies {
    display: grid;
    gap: 1em 1em;
@@ -6536,8 +6573,8 @@
  }
  
  .technologies h1 {
-   grid-column: 1 / 4;
-   grid-row: 1 / 2;
+   grid-column: 1/4;
+   grid-row: 1/2;
  }
  
  .technologies h1,
@@ -6550,77 +6587,63 @@
    text-decoration: none;
    display: block;
    height: 100%;
-   border: 1px solid rgb(138, 5, 73);
+   border: 1px solid #0d0d0d;
    border-radius: 20px;
-   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+ }
+ .techno-box a h2 {
+   background-color: inherit;
+   position: relative;
+   top: 20%;
  }
  
+ .techno-box a:hover {
+   background-color: #5d092d;
+   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+ }
+ .techno-box a:hover h2 {
+   color: #b8babf;
+ }
  
  .css {
-   grid-column: 1 / 2;
-   grid-row: 2 / 3;
+   grid-column: 1/2;
+   grid-row: 2/3;
  }
  
  .html {
-   grid-column: 2 / span 2;
-   grid-row: 2 / 3;
+   grid-column: 2/span 2;
+   grid-row: 2/3;
  }
  
  .javascript {
-   grid-column: 1 / span 2;
-   grid-row: 3 / 4;
+   grid-column: 1/span 2;
+   grid-row: 3/4;
  }
  
  .php {
-   grid-column: 3 / 4;
-   grid-row: 3 / 4;
+   grid-column: 3/4;
+   grid-row: 3/4;
  }
  
  .python {
-   grid-column: 1 / span 3;
-   grid-row: 4 / 5;
+   grid-column: 1/span 3;
+   grid-row: 4/5;
  }
  
  .git {
-   grid-column: 1 / 2;
-   grid-row: 5 / 6;
+   grid-column: 1/2;
+   grid-row: 5/6;
  }
  
  .sqlite {
-   grid-column: 2 / span 2;
-   grid-row: 5 / 6;
+   grid-column: 2/span 2;
+   grid-row: 5/6;
  }
  
- .technology {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   gap: 1em;
+ body {
+   background-color: #b8babf;
  }
  
- .sidebar {
-       display: flex;
-       flex-direction: column;
-       justify-content: start;
-       min-width: 20%;
-       text-align: end;
+ * {
+   color: #000;
  }
  
- .sidebar a {
-       margin: 0;
-       margin-bottom: 1em;
-       display: block;
-       text-decoration: none;
-       font-size: 1.4rem;
-       font-variant: all-small-caps;
-       letter-spacing: 1px;
-       padding-right: 1em;
- }
- 
- 
- 
- @media only screen and (max-width: 940px) {
-   .technology {
-       flex-direction: column;
-   }
- }
