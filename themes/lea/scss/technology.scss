@@ -1,3 +1,13 @@
+@media only screen and (max-width: 940px) {
+    .technology {
+        flex-direction: column;
+
+        .sidebar {
+            display: none !important;
+        }
+    }
+}
+
 .technology {
     display: flex;
     flex-direction: row;
@@ -36,15 +46,5 @@
 .techno {
     pre {
         margin-top: $magic-number;
-    }
-}
-
-@media only screen and (max-width: 940px) {
-    .technology {
-        flex-direction: column;
-
-        .sidebar {
-            display: none !important;
-        }
     }
 }
