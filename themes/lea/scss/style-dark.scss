@@ -1,5 +1,7 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
+@import 'variables-dark';
+@import 'base';
 @import 'typography';
 
 @import 'blockquotes';
@@ -13,11 +15,36 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'technology';
 @import 'technologies';
 @import 'analysis';
+@import 'base';
 
+
+* {
+    color: $font-color;
+}
 body {
-    background-color: $background-color;
+    background-color: rgb(95, 84, 95);
+}
+
+* {
+    font-family: sans-serif;
 }
 
 * {
     color: $font-color;
+}
+
+
+.colors h3{
+   
+        background-color: #8b2a57;
+}
+
+.load h3 {
+    
+        background-color: #8b2a57;
+}
+
+.design h3 {
+
+        background-color: #8b2a57;
 }

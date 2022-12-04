@@ -308,13 +308,17 @@ template {
   display: none;
 }
 
+body {
+  background-color: #b3a7ae;
+}
+
 html {
   font-size: 100%;
 }
 
 body {
   line-height: 1.4;
-  color: rgb(7, 7, 7);
+  color: rgb(10, 10, 10);
 }
 
 h1 {
@@ -6552,7 +6556,7 @@ readers do not read off random characters that represent icons */
   padding-right: 1em;
 }
 .technology .sidebar a:hover {
-  color: #070707;
+  color: #090909;
 }
 .technology .techno {
   font-size: 1.1rem;
@@ -6590,7 +6594,7 @@ readers do not read off random characters that represent icons */
   text-decoration: none;
   display: block;
   height: 100%;
-  border: 1px solid #070707;
+  border: 1px solid #090909;
   border-radius: 20px;
 }
 .techno-box a h2 {
@@ -6600,11 +6604,11 @@ readers do not read off random characters that represent icons */
 }
 
 .techno-box a:hover {
-  background-color: #070707;
+  background-color: #090909;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
 }
 .techno-box a:hover h2 {
-  color: #b5adb1;
+  color: #b3a7ae;
 }
 
 .css {
@@ -6798,9 +6802,33 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-color: #b5adb1;
+  background-color: #b3a7ae;
 }
 
 * {
-  color: rgb(7, 7, 7);
+  color: rgb(10, 10, 10);
+}
+
+body {
+  background-color: rgb(95, 84, 95);
+}
+
+* {
+  font-family: sans-serif;
+}
+
+* {
+  color: rgb(10, 10, 10);
+}
+
+.colors h3 {
+  background-color: #8b2a57;
+}
+
+.load h3 {
+  background-color: #8b2a57;
+}
+
+.design h3 {
+  background-color: #8b2a57;
 }

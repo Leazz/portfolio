@@ -6,8 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass lea/scss/style.scss lea/css/style.css --no-source-map",
-    "style-min": "sass lea/scss/style.scss lea/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass lea/scss/style.scss:lea/css/style.css lea/scss/style-dark.scss:lea/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass lea/scss/style.scss:lea/css/style.min.css lea/scss/style-dark.scss:lea/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass lea/scss/style-dark.scss lea/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass lea/scss/style-dark.scss lea/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass lea/scss/style.scss lea/css/style.css --no-source-map",
+    "style-light-min": "sass lea/scss/style.scss lea/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

@@ -6,7 +6,8 @@ html {
 }
 
 body {
-    line-height: 1.4;
+    line-height: $base-line-height;
+    color: $font-color;
 }
 
 h1 {
