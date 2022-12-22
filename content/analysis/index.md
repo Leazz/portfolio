@@ -1,7 +1,7 @@
 ---
-Title: Analysis
+Title: analysis
 Description: This is my analysis report page.
-Template: Analysis
+Template: analysis
 ---
 Analysis
 ==========================

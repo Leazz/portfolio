@@ -1,0 +1,17 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    
+    <div class="main" role="main">
+        <div class= "gallery-page">
+            {{ content }}
+        </div>
+        <div class= "klipp">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5zlcWdTs2-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

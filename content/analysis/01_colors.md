@@ -1,5 +1,5 @@
 ---
-Title: Color analysis
+Title: color analysis
 Description: This is my Color analysis.
 Template: analysis
 sidebar: true

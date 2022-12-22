@@ -1,0 +1,93 @@
+.gallery-page {
+    display: grid;
+    gap: 2em 2em;
+    border:1px solid #942664;
+    background-color: rgb(151, 98, 127);
+    grid-template-columns: 29% 29% 29%;
+    grid-template-rows: 24% 24% 24%;
+    margin: 0 auto;
+    h1 {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+}
+
+.gallery-page a:hover {
+    filter: opacity(50%);
+    text-decoration: none;
+    border: none;
+}
+.four,
+.one {
+    text-align: right;
+}
+
+.three,
+.six {
+    text-align: left;
+}
+
+.gallery-page h1,
+.five,
+.two {
+    text-align: center;
+}
+
+.gallery-page a {
+    display: block;
+}
+
+.klipp {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  
+  .klipp  iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+@media only screen and (max-width: 940px) {
+    .gallery-page {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        margin: 0;
+        width: 100%;
+    }
+    .one,
+    .three,
+    .four,
+    .six {
+        text-align: center;
+    }
+
+    h1,
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six {
+        grid-column: 1 / 2;
+    }
+    h1 {
+        grid-row: 1 / 2;
+    }
+    .one {
+        grid-row: 2 / 3;
+    }
+    .two {
+        grid-row: 3 / 4;
+    }
+    .three {
+        grid-row: 4 / 5;
+    }
+}
