@@ -1,4 +1,4 @@
-.gallery-page {
+.gallery {
     display: grid;
     gap: 2em 2em;
     border:1px solid #942664;
@@ -12,7 +12,7 @@
     }
 }
 
-.gallery-page a:hover {
+.gallery a:hover {
     filter: opacity(50%);
     text-decoration: none;
     border: none;
@@ -27,13 +27,13 @@
     text-align: left;
 }
 
-.gallery-page h1,
+.gallery h1,
 .five,
 .two {
     text-align: center;
 }
 
-.gallery-page a {
+.gallery a {
     display: block;
 }
 
@@ -55,7 +55,7 @@
 
 
 @media only screen and (max-width: 940px) {
-    .gallery-page {
+    .gallery {
 
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
@@ -91,3 +91,4 @@
         grid-row: 4 / 5;
     }
 }
+

@@ -3,8 +3,6 @@ Title: Gallery
 Description: This is my gallery page.
 Template: gallery
 ---
-Gallery
-==========================
 <div class="gallery one">
 <a href =image/one.jpg
 target="_blank">
