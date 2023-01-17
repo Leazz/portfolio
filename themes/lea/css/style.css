@@ -6619,10 +6619,6 @@ readers do not read off random characters that represent icons */
   text-align: center;
   max-height: 150px;
 }
-.technologies h1 img,
-.techno-box img {
-  width: 100%;
-}
 
 .techno-box a {
   text-decoration: none;
@@ -6650,9 +6646,6 @@ readers do not read off random characters that represent icons */
   grid-row: 2/3;
   overflow: hidden;
 }
-.css img {
-  width: 100%;
-}
 .css h2 {
   position: absolute;
   top: 0;
@@ -6665,9 +6658,6 @@ readers do not read off random characters that represent icons */
   grid-column: 2/span 2;
   grid-row: 2/3;
   overflow: hidden;
-}
-.html img {
-  width: 100%;
 }
 .html h2 {
   position: absolute;
@@ -6682,9 +6672,6 @@ readers do not read off random characters that represent icons */
   grid-row: 3/4;
   overflow: hidden;
 }
-.javascript img {
-  width: 100%;
-}
 .javascript h2 {
   position: absolute;
   top: 0;
@@ -6697,9 +6684,6 @@ readers do not read off random characters that represent icons */
   grid-column: 3/4;
   grid-row: 3/4;
   overflow: hidden;
-}
-.php img {
-  width: 100%;
 }
 .php h2 {
   position: absolute;
@@ -6714,9 +6698,6 @@ readers do not read off random characters that represent icons */
   grid-row: 4/5;
   overflow: hidden;
 }
-.python img {
-  width: 100%;
-}
 .python h2 {
   position: absolute;
   top: 0;
@@ -6729,9 +6710,6 @@ readers do not read off random characters that represent icons */
   grid-column: 1/2;
   grid-row: 5/6;
   overflow: hidden;
-}
-.git img {
-  width: 100%;
 }
 .git h2 {
   position: absolute;
@@ -6753,9 +6731,6 @@ readers do not read off random characters that represent icons */
   grid-column: 2/span 2;
   grid-row: 5/6;
   overflow: hidden;
-}
-.sqlite img {
-  width: 100%;
 }
 .sqlite h2 {
   position: absolute;
