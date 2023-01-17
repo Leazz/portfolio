@@ -1,6 +1,6 @@
 ---
 Title: My page
-Logo: image/me11.png
+Logo: image/lea-alfawaz.png
 Description: Lea Alfawaz.
 ---
 

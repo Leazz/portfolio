@@ -6,8 +6,7 @@ html {
 }
 
 body {
-    line-height: $base-line-height;
-    color: $font-color;
+    line-height: 1.4;
 }
 
 h1 {
@@ -31,23 +30,21 @@ p {
 
 .footer div {
     text-align: center;
-    background-color: rgb(106, 103, 103);
+    background-color: #cc9c9c;
 }
 
 .nav {
     margin-top: 20px;
     width: 100%;
-    background-color: rgb(113, 28, 59);
+    background-color: rgb(131, 73, 94);
     color: #efefef;
     display: flex;
   
 }
 
 .site-header {
-    text-align: end;
-    margin-top: 10px;
-    background-color: rgb(106, 103, 103);
     display: flex;
+    flex-direction: row;
 }
 
 * {
@@ -56,6 +53,8 @@ p {
 
 img {
     border-radius: 50%;
+    max-width: 500px;
+    height: 100px;
 }
 
 @media (min-width: 64em) {

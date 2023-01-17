@@ -1,5 +1,5 @@
 ---
-Logo: image/me11.png
+Logo: image/lea-alfawaz.png
 Tagline: My portfolio
 Social:
     - title: Link till sidans github repo.
@@ -13,5 +13,5 @@ Social:
       icon: fas fa-moon
     - title: Destroy Session
       url: ?action=session_destroy
-      icon: fas fa-trash-alt
+      icon: fas fa-sun
 ---

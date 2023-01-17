@@ -1,5 +1,6 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
+@import 'base';
 @import 'variables-dark';
 @import 'gallery';
 @import 'typography';
@@ -30,21 +31,21 @@ body {
 }
 
 * {
-    color: $font-color;
+    color: white;
 }
 
 
 .colors h3{
    
-        background-color: #8b2a57;
+        background-color: #89355c;
 }
 
 .load h3 {
     
-        background-color: #8b2a57;
+        background-color: #89355c;
 }
 
 .design h3 {
 
-        background-color: #8b2a57;
+        background-color: #89355c;
 }

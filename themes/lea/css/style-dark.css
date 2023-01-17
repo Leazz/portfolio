@@ -308,21 +308,60 @@ template {
   display: none;
 }
 
-.gallery-page {
+body {
+  background-color: #e7dce1;
+}
+
+.header {
+  background-color: #cc9c9c;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.title {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.title a {
+  text-decoration: underline;
+}
+
+.nav {
+  font-size: 1.1rem;
+}
+
+.nav a {
+  color: white;
+}
+
+.gallery {
   display: grid;
   gap: 2em 2em;
-  border: 1px solid #942664;
-  background-color: rgb(151, 98, 127);
+  border: 4px solid #834d6c;
+  background-color: #cc9c9c;
   grid-template-columns: 29% 29% 29%;
   grid-template-rows: 24% 24% 24%;
   margin: 0 auto;
 }
-.gallery-page h1 {
+.gallery h1 {
   grid-column: 1/4;
   grid-row: 1/2;
 }
 
-.gallery-page a:hover {
+.gallery a:hover {
   filter: opacity(50%);
   text-decoration: none;
   border: none;
@@ -338,14 +377,15 @@ template {
   text-align: left;
 }
 
-.gallery-page h1,
+.gallery h1,
 .five,
 .two {
   text-align: center;
 }
 
-.gallery-page a {
+.gallery a {
   display: block;
+  height: 100%;
 }
 
 .klipp {
@@ -365,7 +405,7 @@ template {
 }
 
 @media only screen and (max-width: 940px) {
-  .gallery-page {
+  .gallery {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
     margin: 0;
@@ -405,7 +445,6 @@ html {
 
 body {
   line-height: 1.4;
-  color: rgb(10, 10, 10);
 }
 
 h1 {
@@ -429,22 +468,20 @@ p {
 
 .footer div {
   text-align: center;
-  background-color: rgb(106, 103, 103);
+  background-color: #cc9c9c;
 }
 
 .nav {
   margin-top: 20px;
   width: 100%;
-  background-color: rgb(113, 28, 59);
+  background-color: rgb(131, 73, 94);
   color: #efefef;
   display: flex;
 }
 
 .site-header {
-  text-align: end;
-  margin-top: 10px;
-  background-color: rgb(106, 103, 103);
   display: flex;
+  flex-direction: row;
 }
 
 * {
@@ -453,6 +490,8 @@ p {
 
 img {
   border-radius: 50%;
+  max-width: 500px;
+  height: 100px;
 }
 
 @media (min-width: 64em) {
@@ -6846,7 +6885,6 @@ readers do not read off random characters that represent icons */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em 1em;
-  grid-template-rows: repeat(3, 1fr);
 }
 
 .analys h1 {
@@ -6892,8 +6930,43 @@ body {
   background-color: #b3a7ae;
 }
 
+.header {
+  background-color: #cc9c9c;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.title {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.title a {
+  text-decoration: underline;
+}
+
+.nav {
+  font-size: 1.1rem;
+}
+
+.nav a {
+  color: white;
+}
+
 * {
-  color: rgb(10, 10, 10);
+  color: rgb(184, 179, 179);
 }
 
 body {
@@ -6905,17 +6978,17 @@ body {
 }
 
 * {
-  color: rgb(10, 10, 10);
+  color: white;
 }
 
 .colors h3 {
-  background-color: #8b2a57;
+  background-color: #89355c;
 }
 
 .load h3 {
-  background-color: #8b2a57;
+  background-color: #89355c;
 }
 
 .design h3 {
-  background-color: #8b2a57;
+  background-color: #89355c;
 }

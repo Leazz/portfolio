@@ -1,3 +1,37 @@
 body {
     background-color: $background-color;
 }
+
+.header {
+    background-color: $base-color;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+.title {
+    color:white;
+    text-decoration: none;
+    font-size: small;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.title a {
+    text-decoration: underline;
+}
+
+.nav {
+    font-size: $base-font-size;
+}
+
+.nav a {
+    color: white
+}
